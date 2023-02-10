@@ -1,0 +1,50 @@
+.theme-dark {
+  --color-primary: #fcfcfa;
+  --color-secondary: #939293;
+  --color-background: #2d2a2e;
+  --color-accent: #ffd866;
+}
+
+.theme-light {
+  --color-primary: #5b6168;
+  --color-secondary: #292d31;
+  --color-background: #f7f8fa;
+  --color-accent: #79cb60;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  min-width: 350px;
+}
+
+#timeRemaining {
+  color: var(--color-accent);
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 2rem;
+  letter-spacing: 1vw;
+}
+
+#targetDate {
+  color: var(--color-secondary);
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 2rem;
+}
