@@ -1,10 +1,10 @@
 const countDownTo = {
   year: 2023,
-  month: 05,
-  day: 05,
-  hour: 17,
+  month: 09,
+  day: 24,
+  hour: 15,
   minute: 30,
-  description: "Jahresurlaub",
+  description: "Geburtstag",
 };
 
 const dateCountDownTo = new Date(
@@ -17,7 +17,7 @@ const dateCountDownTo = new Date(
 
 window.addEventListener("DOMContentLoaded", (event) => {
   document.getElementById("description").innerHTML = countDownTo.description;
-  document.title="countdown to "+countDownTo.description;
+  document.title = "countdown to " + countDownTo.description;
   document.getElementById("targetDate").innerHTML =
     prettify(countDownTo.year) +
     "-" +
