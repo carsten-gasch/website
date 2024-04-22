@@ -1,10 +1,10 @@
 const countDownTo = {
-  year: 2023,
-  month: 09,
-  day: 24,
-  hour: 15,
+  year: 2024,
+  month: 05,
+  day: 13,
+  hour: 17,
   minute: 30,
-  description: "Geburtstag",
+  description: "Jahresurlaub",
 };
 
 const dateCountDownTo = new Date(
